@@ -71,3 +71,75 @@
  /*-------------------------
 レイアウト
  ----------------------- */
+ .container {
+   max-width: 1170px;
+   margin: 0 auto;
+   padding: 0 30px;
+ }
+
+ .section {
+   padding: 110px 0;
+ }
+
+ .section_heading {
+   text-align: center;
+   margin-bottom: 60px;
+ }
+
+/*-------------------------
+見出し
+----------------------- */
+.heading01 {
+   font-size: 60px;
+   font-weight: bold;
+   line-height: 1;
+   letter-spacing: 0.05em;
+   color: var(--main-color);
+   text-transform: uppercase;
+}
+
+.heading01_subtitle {
+   display: block;
+   font-size: 20px;
+   color: #fff;
+   margin-top: 10px;
+}
+
+/*-------------------------
+テーブル
+----------------------- */
+.table-type01 {
+   width: 100%;
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+.table-type01 th,
+.table-type01 td {
+   text-align: left;
+   padding: 5px 0;
+}
+
+.table-type02 {
+   width: 100%;
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+.table-type02 tr {
+   border-bottom: solid 1px #740174;
+}
+
+.table-type02 th,
+.table-type02 td {
+   padding: 40px 30px;
+}
+
+.table-type02 th {
+   width: 200px;
+}
+
+.table-type02 td > p {
+   font-size: 15px;
+   line-height: 1.5;
+}
