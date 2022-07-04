@@ -238,7 +238,7 @@
 }
 
 .mv_title {
-   font-size: clmp(24px, 10vw, 100px);
+   font-size: clamp(24px, 10vw, 100px);
    font-weight: bold;
    line-height: 1;
    margin-bottom: 10px;
